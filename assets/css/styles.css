@@ -84,13 +84,11 @@ html, body {
 #bread {
   position: relative;
   width: auto;
-  margin: 10vh auto;
+  margin: 40px auto;
   text-align: center;
   font-size: 250px;
 
 }
-
-
 
 
 #section2 {
@@ -100,6 +98,16 @@ html, body {
   z-index: 1;
 
 }
+
+#section2 #header {
+  width: auto;
+  font-size: 100px;
+  text-align: center;
+  padding-top: 5vh;
+}
+
+
+
 
 
 #section3 {

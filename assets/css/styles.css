@@ -164,7 +164,6 @@ html, body {
 }
 
 #carousel {
-  border: 5px solid black;
   margin: 0px 7vw;
 }
 
@@ -174,24 +173,46 @@ html, body {
 
 #carousel .profile {
   text-align: center;
+  padding: 20px 80px;
 }
+
 #carousel img {
   margin-left: auto;
   margin-right: auto;
   border-radius: 50%;
 }
 
+.profile h4, .profile p {
+  display: none;
+}
 
 
 .slick-prev:before,
 .slick-next:before {
     color: black;
 }
+
+
 .slick-center img{
   width: 50%;
   height: auto;
-
 }
+
+.slick-center h4 {
+  font-size: 20px;
+  display: block;
+}
+
+.slick-center h2 {
+  font-size: 30px;
+  display: block;
+}
+
+.slick-center p {
+  display: block;
+}
+
+
 
 .slick-slide {
   text-align: center;

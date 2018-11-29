@@ -118,13 +118,13 @@ html, body {
   width: auto;
   height: auto;
   width: 85vw;
-
+  color: white;
   margin: 30px auto;
   font-size: 22px;
 }
 
 #section2 #content p {
-  font-size: 32px;
+  font-size: 22px;
 }
 
 #section2 #leftside {
@@ -150,7 +150,15 @@ html, body {
 #section3 {
   position: relative;
   height: 100vh;
-  background-color: white;
+  background-color: gray;
   z-index: 1;
+}
 
+#carousel {
+  border: 5px solid black;
+  margin: 30px 50px;
+}
+
+.slick-prev{
+  color: black;
 }

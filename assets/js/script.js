@@ -22,7 +22,7 @@ $(document).ready(function()  {
     slidesToShow: 3,
     responsive: [
       {
-        breakpoint: 768,
+        breakpoint: 1200,
         settings: {
           arrows: false,
           centerMode: true,
@@ -31,7 +31,7 @@ $(document).ready(function()  {
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 700,
         settings: {
           arrows: false,
           centerMode: true,
@@ -78,25 +78,9 @@ $(document).ready(function()  {
   })
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 })
 
-    // function register() {
-    //   $("#section1overlay").css("display", "block");
-    //
-    // }
-    //
+
 function openmodal() {
     $("#section1overlay").fadeIn();
 }

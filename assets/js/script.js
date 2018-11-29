@@ -33,6 +33,7 @@ $(document).ready(function()  {
       rtl: false,
       slidesToShow: 3,
       slidesToScroll: 1,
+
     // responsive: [
     //   {
     //     breakpoint: 1200,

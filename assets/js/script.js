@@ -17,29 +17,42 @@ $(document).ready(function()  {
   });
 
   $("#carousel").slick({
-    centerMode: true,
-    centerPadding: '60px',
-    slidesToShow: 3,
-    responsive: [
-      {
-        breakpoint: 1200,
-        settings: {
-          arrows: false,
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 3
-        }
-      },
-      {
-        breakpoint: 700,
-        settings: {
-          arrows: false,
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 1
-        }
-      }
-    ]
+    arrows: true,
+      autoplay: true,
+      centerMode: true,
+      centerPadding: "40px",
+      autoplaySpeed: 5000,
+      dots: true,
+      draggable: false,
+      fade: false,
+      infinite: true,
+      initialSlide: 0,
+      mobileFirst: false,
+      pauseOnHover: false,
+      pauseOnDotsHover: false,
+      rtl: false,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+    // responsive: [
+    //   {
+    //     breakpoint: 1200,
+    //     settings: {
+    //       arrows: false,
+    //       centerMode: true,
+    //       centerPadding: '40px',
+    //       slidesToShow: 3
+    //     }
+    //   },
+    //   {
+    //     breakpoint: 700,
+    //     settings: {
+    //       arrows: false,
+    //       centerMode: true,
+    //       centerPadding: '40px',
+    //       slidesToShow: 1
+    //     }
+    //   }
+    // ]
 
   })
 

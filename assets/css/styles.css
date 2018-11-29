@@ -150,15 +150,34 @@ html, body {
 #section3 {
   position: relative;
   height: 100vh;
-  background-color: gray;
+  background-color: white;
   z-index: 1;
+  padding-top: 40px;
+}
+
+#section3 #header {
+  position: relative;
+  width: auto;
+  font-size: 65px;
+  text-align: center;
+  color: #002FA7;
 }
 
 #carousel {
   border: 5px solid black;
-  margin: 30px 50px;
+  margin: 0px 7vw;
 }
 
-.slick-prev{
-  color: black;
+#carouselbox {
+  margin-top: 10vh;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+.slick-center img{
+  width: 50%;
+  height: auto;
+
 }

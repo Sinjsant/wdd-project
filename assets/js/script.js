@@ -11,7 +11,7 @@ $(document).ready(function()  {
   .type("Let's get this bread.");
 
   $(document).on('click', function(event) {
-    if (!$(event.target).closest('#navmodal').length && !$(event.target).is($("#navbar-right button"))) {
+    if (!$(event.target).closest('#navmodal').length && !$(event.target).is($("button"))) {
       $('#section1overlay').hide();
     }
   });
@@ -21,7 +21,7 @@ $(document).ready(function()  {
       autoplay: true,
       centerMode: true,
       centerPadding: "40px",
-      autoplaySpeed: 5000,
+      autoplaySpeed: 3000,
       dots: true,
       draggable: false,
       fade: false,
@@ -33,28 +33,6 @@ $(document).ready(function()  {
       rtl: false,
       slidesToShow: 3,
       slidesToScroll: 1,
-
-    // responsive: [
-    //   {
-    //     breakpoint: 1200,
-    //     settings: {
-    //       arrows: false,
-    //       centerMode: true,
-    //       centerPadding: '40px',
-    //       slidesToShow: 3
-    //     }
-    //   },
-    //   {
-    //     breakpoint: 700,
-    //     settings: {
-    //       arrows: false,
-    //       centerMode: true,
-    //       centerPadding: '40px',
-    //       slidesToShow: 1
-    //     }
-    //   }
-    // ]
-
   })
 
   $("#register").on('click', function() {
@@ -87,6 +65,18 @@ $(document).ready(function()  {
       <form>\
       Your email: <input type='text'><br>\
       Message: <br><textarea rows='5' cols='45'></textarea>\
+      </form>\
+      ");
+  })
+
+  $("#joinus").on('click', function() {
+    openmodal();
+    $("#navmodal").html("\
+      Sign up for an account\
+      <form>\
+      Username: <input type='text'><br>\
+      Password: <input type='text'><br>\
+      Confirm password: <input type='text'><br>\
       </form>\
       ");
   })

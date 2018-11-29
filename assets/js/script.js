@@ -18,7 +18,7 @@ $(document).ready(function()  {
 
   $("#carousel").slick({
     arrows: true,
-      autoplay: true,
+      // autoplay: true,
       centerMode: true,
       centerPadding: "40px",
       autoplaySpeed: 5000,

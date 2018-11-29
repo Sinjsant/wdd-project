@@ -172,10 +172,16 @@ html, body {
   margin-top: 10vh;
 }
 
+#carousel .profile {
+  text-align: center;
+}
 #carousel img {
   margin-left: auto;
   margin-right: auto;
+  border-radius: 50%;
 }
+
+
 
 .slick-prev:before,
 .slick-next:before {

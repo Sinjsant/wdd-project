@@ -17,7 +17,7 @@ $(document).ready(function()  {
   });
 
   $("#section2 #content").css("display", "none");
-  
+
   var waypoint = new Waypoint({
     element: $("#section2"),
     handler: function() {
@@ -44,8 +44,8 @@ $(document).ready(function()  {
       infinite: true,
       initialSlide: 0,
       mobileFirst: false,
-      pauseOnHover: false,
-      pauseOnDotsHover: false,
+      pauseOnHover: true,
+      pauseOnDotsHover: true,
       rtl: false,
       slidesToShow: 3,
       slidesToScroll: 1,
@@ -54,7 +54,7 @@ $(document).ready(function()  {
   $("#register").on('click', function() {
     openmodal();
     $("#navmodal").html("\
-      Sign up for an account\
+      <h3>Sign up for an account</h3>\
       <form>\
       Username: <input type='text'><br>\
       Password: <input type='text'><br>\
@@ -66,7 +66,7 @@ $(document).ready(function()  {
   $("#login").on('click', function() {
     openmodal();
     $("#navmodal").html("\
-      Log in to an existing account\
+      <h3>Log in to an existing account</h3>\
       <form>\
       Username: <input type='text'><br>\
       Password: <input type='text'><br>\
@@ -77,7 +77,7 @@ $(document).ready(function()  {
   $("#contact").on('click', function() {
     openmodal();
     $("#navmodal").html("\
-      Questions, comments, or concerns?\
+      <h3>Questions, comments, or concerns?</h3>\
       <form>\
       Your email: <input type='text'><br>\
       Message: <br><textarea rows='5' cols='45'></textarea>\
@@ -88,7 +88,7 @@ $(document).ready(function()  {
   $("#joinus").on('click', function() {
     openmodal();
     $("#navmodal").html("\
-      Sign up for an account\
+      <h3>Sign up for an account</h3>\
       <form>\
       Username: <input type='text'><br>\
       Password: <input type='text'><br>\

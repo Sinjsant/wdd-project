@@ -16,6 +16,22 @@ $(document).ready(function()  {
     }
   });
 
+  $("#section2 #content").css("display", "none");
+  
+  var waypoint = new Waypoint({
+    element: $("#section2"),
+    handler: function() {
+      console.log("success"),
+      $("#section2 #content")
+      .slideDown('slow')
+      .animate(
+        { opacity: 1 },
+        { queue: false, duration: 'slow' }
+      );
+      this.destroy()
+    }
+  })
+
   $("#carousel").slick({
     arrows: true,
       autoplay: true,

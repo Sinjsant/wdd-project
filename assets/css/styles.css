@@ -125,6 +125,7 @@ button {
   color: white;
   margin: 30px auto;
   font-size: 22px;
+  opacity: 0;
 }
 
 #section2 #content p {
@@ -194,7 +195,7 @@ button {
 
 
 .slick-center img{
-  width: 50%;
+  width: 80%;
   height: auto;
 }
 
